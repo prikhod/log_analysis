@@ -1,0 +1,11 @@
+num_workers: 5 # count available cores cpu -1
+bytes_per_batch: 10000000
+lines_per_batch: 1000000
+
+clickhouse:
+  host: localhost
+  port: 9000
+  database: nginx
+  secure: False
+  user: python
+  password: python

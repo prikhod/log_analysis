@@ -1,0 +1,9 @@
+port: 8080
+
+clickhouse:
+  host: localhost
+  port: 9000
+  database: nginx
+  secure: False
+  user: python
+  password: python

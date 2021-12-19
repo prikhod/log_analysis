@@ -1,0 +1,10 @@
+access.log
+generated-access.log
+gens-access.log
+notes.txt
+generate_log.py
+classifier
+node_modules
+public
+package-lock.json
+*.pyc
