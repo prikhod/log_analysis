@@ -6,20 +6,25 @@ Run log parser:
 
 Settings in config.yaml
 
-```python3 -m log_analysis.log_parse -c config.yaml -l access.log```
+```shell 
+python3 -m log_analysis.log_parse -c config.yaml -l access.log
+```
 
 ### Simple Web view results
 
-Web:
 
 backend: 
 
-```python3 -m log_analysis.backend -c config-backend.yaml```
+```shell 
+python3 -m log_analysis.backend -c config-backend.yaml
+```
 
 Frontend:
 
-```cd web/frontend```
+```shell 
+cd web/frontend
 
-```npm install```
+npm install
 
-```npm start```
+npm start
+```
