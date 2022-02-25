@@ -1,7 +1,7 @@
 ### Parse nginx log and put in clickhouse database
-
+```shell 
 pip3 install -r requirements.txt
-
+```
 Run log parser:
 
 Settings in config.yaml
