@@ -8,9 +8,7 @@ Settings in config.yaml
 
 ```python3 -m log_analysis.log_parse -c config.yaml -l access.log```
 
-Queries:
-
-```python3 -m log_analysis.queries -c config.yaml```
+### Simple Web view results
 
 Web:
 
